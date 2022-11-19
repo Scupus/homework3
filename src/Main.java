@@ -79,8 +79,16 @@ public class Main {
      int denSlry = 83690;
      int krisSlry = 76230;
      int newMashSlry = (int) (mashSlry * 1.1);
-     int newKrisSlry = (int) (denSlry * 1.1);
-     int newdenSlry = (int) (krisSlry * 1.1);
+     int newDenSlry = (int) (denSlry * 1.1);
+     int newKrisSlry = (int) (krisSlry * 1.1);
+     int mashYearSlry = (newMashSlry - mashSlry) * 12;
+     int denYearSlry = (newDenSlry - denSlry) * 12;
+     int krisYearSlry = (newKrisSlry - krisSlry) * 12;
+     System.out.println("Маша теперь получает " + newMashSlry + " рублей. Годовой доход вырос на " +  mashYearSlry + " рублей.");
+     System.out.println("Денис теперь получает " + newDenSlry + " рублей. Годовой доход вырос на " +  denYearSlry + " рублей.");
+     System.out.println("Кристина теперь получает " + newKrisSlry + " рублей. Годовой доход вырос на " +  krisYearSlry + " рублей.");
+
+
 
 
 
