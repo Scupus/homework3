@@ -50,6 +50,16 @@ public class Main {
         System.out.println("За " + time2 + " минут работы машина произвела " + botQnty2 + " штук бутылок.");
         System.out.println("За " + time3 + " минут работы машина произвела " + botQnty3 + " штук бутылок.");
         System.out.println("За " + time4 + " минут работы машина произвела " + botQnty4 + " штук бутылок.");
+     System.out.println("____________________________________________________________________________________");
+     short allQnty = 120;
+     byte oneClass = 6;
+     short classes = (short) (allQnty / oneClass);
+     short white = (short) (classes * 2);
+     short brown = (short) (classes * 4);
+
+
+
+
 
     }
 }
