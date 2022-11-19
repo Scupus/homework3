@@ -56,8 +56,31 @@ public class Main {
      short classes = (short) (allQnty / oneClass);
      short white = (short) (classes * 2);
      short brown = (short) (classes * 4);
-
-
+     System.out.println("В школе где, " + classes + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски.");
+     System.out.println("____________________________________________________________________________________");
+     short bananes = 5 * 80;
+     short milk = (200 / 100) * 105;
+     short icecream = 2 * 100;
+     short eggs = 4 * 70;
+     short brkWeight = (short) ((bananes + milk + icecream + eggs) / 1000);
+     System.out.println("Завтрак спортсмена весит " + brkWeight + " кг.");
+     System.out.println("____________________________________________________________________________________");
+     short rqdWhgt = 7000;
+     short oneDay1 = 250;
+     short oneDay2 = 500;
+     short firstRes = (short) (rqdWhgt / oneDay1);
+     short secRes = (short) (rqdWhgt / oneDay2);
+     short midRes = (short) ((firstRes + secRes) / 2);
+     System.out.println("Если спортсмен будет худеть на " + oneDay1 + " гр. в день, потребуется " + firstRes + " дней.");
+     System.out.println("Если спортсмен будет худеть на " + oneDay2 + " гр. в день, потребуется " + secRes + " дней.");
+     System.out.println("В среднем на похудение потребуется " + midRes + " день.");
+     System.out.println("____________________________________________________________________________________");
+     int mashSlry = 67760;
+     int denSlry = 83690;
+     int krisSlry = 76230;
+     int newMashSlry = (int) (mashSlry * 1.1);
+     int newKrisSlry = (int) (denSlry * 1.1);
+     int newdenSlry = (int) (krisSlry * 1.1);
 
 
 
